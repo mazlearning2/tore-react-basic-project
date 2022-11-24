@@ -1,0 +1,25 @@
+.not-found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+.not-found-title{
+    font-size: 2.3rem;
+    color: var(--orangeColor);
+}
+.not-found-reload{
+    border: 0;
+    outline: 0;
+    padding: .5rem 1.5rem;
+    background-color: var(--blueColor);
+    color: var(--lightColor);
+    cursor: pointer;
+    margin-top: 2rem;
+    border-radius: .3rem;
+    transition: all 200ms ease-in-out;
+}
+.not-found-reload:hover{
+    background-color: var(--blueDarkColor);
+}

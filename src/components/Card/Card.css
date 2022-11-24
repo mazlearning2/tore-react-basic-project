@@ -1,0 +1,68 @@
+.card{
+    width: 50rem;
+    /* padding: 1rem; */
+    background-color: var(--whiteColor);
+    box-shadow: 0 0 .5rem var(--shadowColor2);
+    margin: 2rem 0;
+    border-radius: .5rem;
+}
+.card-image{
+    width: 100%;
+    height: 22rem;
+    background-color: var(--lightDarkColor);
+    border-radius: .5rem .5rem 0 0;
+}
+.card-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .5rem .5rem 0 0;
+}
+.card-title{
+    font-size: 2rem;
+    padding: 1rem;
+    color: var(--greenColor);
+}
+.card-description{
+    font-size: 1.4rem;
+    color: var(--darkColor);
+    padding: 1rem;
+}
+.card-read-more{
+    font-size: 1.4rem;
+    padding-right: .5rem;
+    color: var(--blueColor);
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+.card-read-more:hover{
+    color: var(--blueDarkColor);
+}
+.card-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+}
+.card-button{
+    padding: .5rem 1.5rem;
+    background-color: transparent;
+    border: .1rem solid var(--orangeColor);
+    border-radius: .3rem;
+    color: var(--orangeColor);
+    cursor: pointer;
+    outline: 0;
+    transition: all 200ms ease-in-out;
+}
+.card-button:hover{
+    color: var(--lightColor);
+    background-color: var(--orangeColor);
+}
+
+@media only screen and (max-width: 768px){
+    .card{
+        margin: 2rem 3rem;
+        width: calc(100% - 3rem);
+    }
+}

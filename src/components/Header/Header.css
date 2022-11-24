@@ -1,0 +1,18 @@
+.header{
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--whiteColor);
+    padding: 1rem;
+    box-shadow: 0 .5rem 1rem var(--shadowColor2);
+}
+.header-title{
+    font-size: 2.2rem;
+    color: var(--greenColor);
+    text-align: center;
+}
